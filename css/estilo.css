@@ -18,11 +18,11 @@ body{
 }
 .logo{
     flex:20%;
-    margin-left: 10%;
+    margin-left: 15%;
     /* border: 1px solid red;*/
-    text-align: left;
     color: #180f4a;
     font-size: 23px;
+    text-align:center;
     
 
 }
@@ -30,7 +30,10 @@ body{
 .logo h1{
     font-family:Arial, Helvetica, sans-serif;
     color: #180f4a;
-    font-size: 34px;
+    font-size: 31px;
+    
+    
+    
 }
 
 
@@ -69,31 +72,29 @@ body{
     flex-flow:row wrap;
     background:white;
     padding: 100px;
-
-
-    
-
+    justify-content: center;
+    align-items: center;
+   
 
 
 }
 .headline{
     margin-left:10%;
     flex: 40%;
-    justify-content: center;
-    align-items: center;
-   /* border: 1px solid black;*/
-   
     
-  
-
+   
+   /* border: 1px solid black;*/
 }
 
 .headlineh2{
     font-weight: 900;
     font-size: 20px;
     color: #180f4a;
-    padding: 0;
-    margin: 0;
+    padding:0;
+    margin:0;
+
+   
+    
 }
 .headline p{
     color: #180f4a;
@@ -113,20 +114,18 @@ body{
     text-decoration: none;
 }
 
+
 .contact-btn:hover{
     border: none;
     background: #296dff;
 }
 
 
-
-
-
 .img-headline{
     margin-right: 10%;
     flex: 40%;
-  /* border: 1px solid rgb(153, 22, 44);*/
    text-align: center;
+   /* border: 1px solid rgb(153, 22, 44);*/
 }
 
 section{
@@ -219,3 +218,8 @@ footer{
   
 
 }
+
+
+
+
+
